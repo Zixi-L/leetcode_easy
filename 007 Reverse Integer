@@ -1,0 +1,14 @@
+def reverse(x):
+    reserve_x = 0
+    abs_x = abs(x)
+    while abs_x!= 0:
+        temp = abs_x%10
+        reserve_x = reserve_x*10 + temp
+        abs_x = abs_x//10
+    if reserve_x < 2147483647:
+        if x > 0:
+            return reserve_x
+        else:
+            return -reserve_x
+    else:
+        return 0
