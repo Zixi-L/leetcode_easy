@@ -10,5 +10,6 @@ def isValid(s: str):
                 return False
         else:
             stack.append(char)
-    return not stack # here has to be not stack, otherwise '[' will return True. ONLY in the case that stack is empthy, return True
+    return not stack # here has to be not stack, otherwise '[' will return True. 
+                     #ONLY in the case that stack is empthy, return True
 print(isValid('()]'))
