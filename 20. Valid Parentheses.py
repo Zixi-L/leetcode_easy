@@ -12,4 +12,3 @@ def isValid(s: str):
             stack.append(char)
     return not stack # here has to be not stack, otherwise '[' will return True. 
                      #ONLY in the case that stack is empthy, return True
-print(isValid('()]'))
