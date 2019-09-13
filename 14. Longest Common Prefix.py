@@ -6,4 +6,3 @@ def longestprefix(strs):
             if other[n] != l:
                 return shortest[:n]
     return shortest
-print(longestprefix(["flower","flow","flight"])
