@@ -1,4 +1,3 @@
-abc = ["flower","flow","flight"]
 def longestprefix(strs):
     shortest = min(strs,key=len) 
     prefix = ''
