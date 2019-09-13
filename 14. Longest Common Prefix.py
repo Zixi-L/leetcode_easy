@@ -8,5 +8,3 @@ def longestprefix(strs):
                 return shortest[:n]
     return shortest
 print(longestprefix(["flower","flow","flight"])
-
-#未保存
