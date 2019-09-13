@@ -16,6 +16,7 @@ class Solution:
             else:
                 cur.next=l2
                 l2=l2.next
+            # why cur=cur.next???
             cur=cur.next
         # if l1=[1,2,3] l2=[5,6,7] then in the while loop only l1 is inserted.
         # So we have to insert l2 in this case
