@@ -10,3 +10,6 @@ def removeElement(self, nums: List[int], val: int) -> int:
             nums[slow]=i
             slow +=1
     return slow
+
+# Time Complixity = O(n)
+# Data explaination : https://www.youtube.com/watch?v=IPWeJJClNHQ
