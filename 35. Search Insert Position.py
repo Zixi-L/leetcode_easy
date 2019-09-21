@@ -9,7 +9,7 @@ def search(nums, target):
                 return i+1
             
 #Time Complexity: O(n)
-# To improve the Time Complexity to O(lg):
+# To improve the Time Complexity to O(lgN):
 
 def searchInsert(self, nums: List[int], target: int) -> int:
     l = 0 
