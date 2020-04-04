@@ -6,6 +6,7 @@ n = 1
 l1,l2,end = m-1, n-1 , m+n-1
 
 while l1 >= 0 and l2>= 0:
+        # Compare from the end of the array
         if nums2[l2] > nums1[l1]:
                 nums1[end] = nums2[l2]
                 l2 -= 1     
@@ -16,7 +17,7 @@ while l1 >= 0 and l2>= 0:
             
         end -=1
         
-if l1<0:
+if l1<0:  # if num2 has part left
         nums1[:l2+1] = nums2[:l2+1]
 
 print(nums1)
