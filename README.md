@@ -1,4 +1,2 @@
-# leetcode_easy
-Hi, everyone! 
-This is a file that saved my solutions for leetcode easy section. 
-Welcome to correct any part of it and help me to improve the code!
+This is a file that saved my solutions for leetcode selected questions. 
+The questions are mostly related to Array, String, DFS, Hash table, Graph, Linked list
